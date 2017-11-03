@@ -317,6 +317,7 @@ cc_library(
         "ncurses/ncurses/widechar/lib_vline_set.c",
         "ncurses/ncurses/widechar/lib_wacs.c",
         "ncurses/ncurses/widechar/lib_wunctrl.c",
+        'ncurses/ncurses/curses.priv.h',
     ],
     copts = COPTS,
     visibility = [
